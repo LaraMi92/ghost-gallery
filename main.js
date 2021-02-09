@@ -50,7 +50,7 @@ function animate(){
     
     requestAnimationFrame(animate);
 
-    skybox.rotation.y += 0.01;
+    skybox.rotation.y += 0.001;
 }
 
 function onWindowResize(){
